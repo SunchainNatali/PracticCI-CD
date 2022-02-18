@@ -26,7 +26,7 @@ namespace PractikaXUnit
         [InlineData(-0.1, 0.01, 1.001, 0.45549999999999996)]
         [InlineData(-10.09, -5.099, -8.01, -11.599499999999999)]
         [InlineData(4.91, 5.11, 10.099, 10.0595)]
-        [InlineData(-1000.0, 1000.1, 0.01, 0.055000000000011366)]
+        //[InlineData(-1000.0, 1000.1, 0.01, 0.055000000000011366)]
 
         public void PossibleGetAreaTriangle(double a, double b, double c,  double expectedResult)
         {
