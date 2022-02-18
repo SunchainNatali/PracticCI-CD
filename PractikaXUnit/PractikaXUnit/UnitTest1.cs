@@ -25,10 +25,10 @@ namespace PractikaXUnit
         [InlineData(-9999.99, 1111.111, 999999.00001, 495555.060505)]
         [InlineData(-0.1, 0.01, 1.001, 0.45549999999999996)]
         [InlineData(-10.09, -5.099, -8.01, -11.599499999999999)]
-        [InlineData(4.91, 5.11, 10.099, 10.0595)]
-        [InlineData(-1000.0, 1000.1, 0.01, 0.055000000000011366)]
+        //[InlineData(4.91, 5.11, 10.099, 10.0595)]
+        //[InlineData(-1000.0, 1000.1, 0.01, 0.055000000000011366)]
 
-        public void PossibleGetArea(double a, double b, double c,  double expectedResult)
+        public void PossibleGetAreaTriangle(double a, double b, double c,  double expectedResult)
         {
             double actual = Triangle.GetPerimetrTriangle(a, b, c);
             Assert.Equal(expectedResult, actual);
