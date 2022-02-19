@@ -4,12 +4,12 @@ namespace PractikaXUnit
     public class Triangle
     {
        
-        public static double GetPerimetrTriangle(double a, double b, double c )
+        public static double GetPerimetrTriangle(double a, double b, double d)
         {
             
-            double resultat= (a + b + c) / 2.0;
+            double r= (a + b + d) / 2.0;
            
-            return resultat;
+            return r;
         }
 
        
