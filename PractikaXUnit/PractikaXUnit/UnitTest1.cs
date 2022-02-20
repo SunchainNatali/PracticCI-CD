@@ -30,8 +30,10 @@ namespace PractikaXUnit
 
         public void PossibleGetArea(double a, double b, double d,  double expected)
         {
+
             double actual = Triangle.GetPerimetrTriangle(a, b, d);
             Assert.Equal(expected, actual);
+
         }
     }
 }
